@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/linksplatform/Singletons.svg?branch=master)](https://travis-ci.com/linksplatform/Singletons)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f095ae6c0742405399a34ad50ec6ab8d)](https://app.codacy.com/app/drakonard/Singletons?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Singletons&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6a98025fb9fa4a049ea1276d727dca9d)](https://www.codacy.com/app/drakonard/Singletons?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linksplatform/Singletons&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/Singletons/badge)](https://www.codefactor.io/repository/github/linksplatform/Singletons)
 
 # [Singletons](https://github.com/linksplatform/Singletons)
