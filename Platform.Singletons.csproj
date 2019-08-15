@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Singletons Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Singletons</AssemblyTitle>
-    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionPrefix>0.0.2</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Singletons</AssemblyName>
@@ -21,7 +21,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Platform.Reflection updated dependency from 0.0.4 to 0.0.6.
+Global.Trash field converted to property.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
