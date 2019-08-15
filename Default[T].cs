@@ -20,6 +20,6 @@ namespace Platform.Singletons
         /// If you really need maximum performance, use this property.
         /// This property should create only one instance per thread.
         /// </summary>
-        public static T ThreadInstance => _threadInstance == null ? _threadInstance = new T() : _threadInstance;
+        public static T ThreadInstance => _threadInstance == null ? _threadInstance = new T() : _threadInstance; //-V3111
     }
 }
