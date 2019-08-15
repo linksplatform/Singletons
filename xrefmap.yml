@@ -50,7 +50,14 @@ references:
 - uid: Platform.Singletons.Global.Trash
   name: Trash
   href: api/Platform.Singletons.Global.html#Platform_Singletons_Global_Trash
-  commentId: F:Platform.Singletons.Global.Trash
+  commentId: P:Platform.Singletons.Global.Trash
+  fullName: Platform.Singletons.Global.Trash
+  nameWithType: Global.Trash
+- uid: Platform.Singletons.Global.Trash*
+  name: Trash
+  href: api/Platform.Singletons.Global.html#Platform_Singletons_Global_Trash_
+  commentId: Overload:Platform.Singletons.Global.Trash
+  isSpec: "True"
   fullName: Platform.Singletons.Global.Trash
   nameWithType: Global.Trash
 - uid: Platform.Singletons.Singleton
