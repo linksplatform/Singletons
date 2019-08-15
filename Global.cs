@@ -11,6 +11,6 @@ namespace Platform.Singletons
         /// и сделать вид, что значение действительно используется.
         /// Такое может быть полезно при реализации тестов на производительность.
         /// </summary>
-        public static object Trash;
+        public static object Trash { get; set; }
     }
 }
