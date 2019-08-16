@@ -20,7 +20,6 @@ NuGet package: [Platform.Singletons](https://www.nuget.org/packages/Platform.Sin
 
 ## Dependent libraries
 * [Platform.Scopes](https://github.com/linksplatform/Scopes)
-* [Platform.Data](https://github.com/linksplatform/Data)
 * [Platform.Data.Doublets](https://github.com/linksplatform/Data.Doublets)
 
 ## Mystery files
