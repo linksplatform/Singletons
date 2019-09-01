@@ -26,7 +26,7 @@ Global.Trash field converted to property.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Platform.Reflection" Version="0.0.6" />
+    <PackageReference Include="Platform.Reflection" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
