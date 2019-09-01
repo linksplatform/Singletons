@@ -9,7 +9,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Singletons</AssemblyName>
     <PackageId>Platform.Singletons</PackageId>
-    <PackageTags>LinksPlatform;Singletons;</PackageTags>
+    <PackageTags>LinksPlatform;Singletons;Singleton;Global;Default</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://linksplatform.github.io/Singletons</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
