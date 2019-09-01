@@ -1,24 +1,27 @@
 ﻿using System;
 
-#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
-
 namespace Platform.Singletons
 {
     /// <summary>
-    /// Представляет собой точку доступа к экземплярям типов по умолчанию (созданных с помощью конструктора без аргументов).
+    /// <para>Represents an access point to instances of default types (created using the constructor with no arguments).</para>
+    /// <para>Представляет собой точку доступа к экземплярям типов по умолчанию (созданных с помощью конструктора без аргументов).</para>
     /// </summary>
-    /// <typeparam name="T">Тип экземпляра объекта.</typeparam>
+    /// <typeparam name="T"><para>The type of instance of the object.</para><para>Тип экземпляра объекта.</para></typeparam>
     public static class Default<T>
         where T : new()
     {
         [ThreadStatic]
         private static T _threadInstance;
 
+        /// <summary>
+        /// <para>Returns an instance of an object by default.</para>
+        /// <para>Возвращает экземпляр объекта по умолчанию.</para>
+        /// </summary>
         public static readonly T Instance = new T();
 
         /// <summary>
-        /// If you really need maximum performance, use this property.
-        /// This property should create only one instance per thread.
+        /// <para>If you really need maximum performance, use this property. This property should create only one instance per thread.</para>
+        /// <para>Если вам действительно нужна максимальная производительность, используйте это свойство. Это свойство должно создавать только один экземпляр на поток.</para>
         /// </summary>
         public static T ThreadInstance => _threadInstance == null ? _threadInstance = new T() : _threadInstance; //-V3111
     }
