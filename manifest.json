@@ -25,78 +25,6 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Default-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Default-1.html",
-          "hash": "zqOWJhOxxBNhy+VyQuc9xA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Global.html",
-          "hash": "ISGxkyybWT0oXJVkb0eldA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Singleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Singleton-1.html",
-          "hash": "VeqBRO2wQUhXljieAmiqVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Singleton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Singleton.html",
-          "hash": "iFKieROYz5otbQ/xSbKSVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.html",
-          "hash": "nEyRhrl4reHgXCjyw6/ItQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "10/CnSOVOCIEdMnmdHkX9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -105,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "xl4zrTk/1ns6+nDOYpOr0g=="
+          "hash": "/rveRnjlV7wPPCxp+C9VqQ=="
         }
       },
       "is_incremental": false,
@@ -123,23 +51,17 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
