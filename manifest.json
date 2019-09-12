@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Default-1.html",
-          "hash": "VPfOVjmxiZJel2obKU4LCw=="
+          "hash": "zqOWJhOxxBNhy+VyQuc9xA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Global.html",
-          "hash": "pdW0KhuSmOfKU8KwnEfMmQ=="
+          "hash": "ISGxkyybWT0oXJVkb0eldA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton-1.html",
-          "hash": "HzXwuTL3Y+36mHEtpMnNig=="
+          "hash": "VeqBRO2wQUhXljieAmiqVQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton.html",
-          "hash": "REwnecGXOA+YxAq1FveUYw=="
+          "hash": "iFKieROYz5otbQ/xSbKSVQ=="
         }
       },
       "is_incremental": false,
@@ -123,13 +123,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -140,6 +133,13 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
