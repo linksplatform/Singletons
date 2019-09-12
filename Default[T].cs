@@ -1,5 +1,7 @@
 ﻿using System;
 
+#pragma warning disable RECS0017 // Possible compare of value type with 'null'
+
 namespace Platform.Singletons
 {
     /// <summary>
@@ -23,6 +25,10 @@ namespace Platform.Singletons
         /// <para>If you really need maximum performance, use this property. This property should create only one instance per thread.</para>
         /// <para>Если вам действительно нужна максимальная производительность, используйте это свойство. Это свойство должно создавать только один экземпляр на поток.</para>
         /// </summary>
+        /// <remarks>
+        /// <para>Check for null is intended to create only classes, not structs.</para>
+        /// <para>Проверка на значение null выполняется специально для создания только классов, а не структур.</para>
+        /// </remarks>
         public static T ThreadInstance => _threadInstance == null ? _threadInstance = new T() : _threadInstance; //-V3111
     }
 }
