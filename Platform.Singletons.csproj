@@ -29,10 +29,6 @@ Tags updated.
 Issues fix.</PackageReleaseNotes>
   </PropertyGroup>
   
-  <ItemGroup Condition="$(TargetFramework.StartsWith('net')) AND '$(MSBuildRuntimeType)' == 'Core' AND '$(OS)' != 'Windows_NT'">
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-preview.2" PrivateAssets="All" />      
-  </ItemGroup>
-  
   <ItemGroup>
     <PackageReference Include="Platform.Reflection" Version="0.1.1" />
   </ItemGroup>
