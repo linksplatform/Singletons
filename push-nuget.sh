@@ -28,7 +28,7 @@ if [ ${StatusContents[1]} == "200" ]; then
 fi
 
 # Push NuGet package
-dotnet nuget ./**/*.nupkg push -s https://api.nuget.org/v3/index.json -k ${NUGETTOKEN} 
+dotnet nuget push ./**/*.nupkg -s https://api.nuget.org/v3/index.json -k ${NUGETTOKEN} 
 
 # Clean up
 find . -type f -name '*.nupkg' -delete
