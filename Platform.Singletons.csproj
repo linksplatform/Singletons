@@ -21,7 +21,6 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <LangVersion>Latest</LangVersion>
     <PackageReleaseNotes>Added support for net461 (.NET Framework 4.6.1).
 Platform.Reflection dependency updated from 0.0.6 to 0.1.0.
 Updated XML code comments.
