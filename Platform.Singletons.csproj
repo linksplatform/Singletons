@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Singletons</AssemblyTitle>
     <VersionPrefix>0.0.3</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFramework>netstandard2.0;net461</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <AssemblyName>Platform.Singletons</AssemblyName>
     <PackageId>Platform.Singletons</PackageId>
     <PackageTags>LinksPlatform;Singletons;Singleton;Global;Default</PackageTags>
