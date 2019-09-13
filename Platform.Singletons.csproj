@@ -29,7 +29,7 @@ Issues fix.</PackageReleaseNotes>
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="Platform.Reflection" Version="0.1.1" />
+    <PackageReference Include="Platform.Reflection" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
