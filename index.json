@@ -1,13 +1,13 @@
 {
-  "api/Platform.Singletons.html": {
-    "href": "api/Platform.Singletons.html",
-    "title": "Namespace Platform.Singletons | LinksPlatform's Platform.Singletons Library",
-    "keywords": "Namespace Platform.Singletons Classes Default<T> Represents an access point to instances of default types (created using the constructor with no arguments). Представляет собой точку доступа к экземплярям типов по умолчанию (созданных с помощью конструктора без аргументов). Global Contains the global state of the system. Содержит глобальное состояние системы. Singleton Structs Singleton<T>"
-  },
   "README.html": {
     "href": "README.html",
     "title": "Singletons | LinksPlatform's Platform.Singletons Library",
-    "keywords": "Singletons LinksPlatform's Platform.Singletons Class Library. Namespace: Platform.Singletons Forked from: LinksPlatform/Helpers/Singletons NuGet package: Platform.Singletons Documentation PDF file with code for e-readers. Depend on Platform.Reflection Dependent libraries Platform.Scopes Platform.Data.Doublets"
+    "keywords": "Singletons LinksPlatform's Platform.Singletons Class Library. Namespace: Platform.Singletons Forked from: LinksPlatform/Helpers/Singletons NuGet package: Platform.Singletons Documentation PDF file with code for e-readers. Depend on Platform.Reflection Dependent libraries Platform.Scopes Platform.Communication Platform.Data.Doublets"
+  },
+  "api/Platform.Singletons.Default-1.html": {
+    "href": "api/Platform.Singletons.Default-1.html",
+    "title": "Class Default<T> | LinksPlatform's Platform.Singletons Library",
+    "keywords": "Class Default<T> Represents an access point to instances of default types (created using the constructor with no arguments). Представляет собой точку доступа к экземплярям типов по умолчанию (созданных с помощью конструктора без аргументов). Inheritance Object Default<T> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Singletons Assembly : Platform.Singletons.dll Syntax public static class Default<T> where T : new() Type Parameters Name Description T The type of instance of the object. Тип экземпляра объекта. Fields | Improve this Doc View Source Instance Returns an instance of an object by default. Возвращает экземпляр объекта по умолчанию. Declaration public static readonly T Instance Field Value Type Description T Properties | Improve this Doc View Source ThreadInstance If you really need maximum performance, use this property. This property should create only one instance per thread. Если вам действительно нужна максимальная производительность, используйте это свойство. Это свойство должно создавать только один экземпляр на поток. Declaration public static T ThreadInstance { get; } Property Value Type Description T Remarks Check for null is intended to create only classes, not structs. Проверка на значение null выполняется специально для создания только классов, а не структур."
   },
   "api/Platform.Singletons.Singleton-1.html": {
     "href": "api/Platform.Singletons.Singleton-1.html",
@@ -19,10 +19,10 @@
     "title": "Class Global | LinksPlatform's Platform.Singletons Library",
     "keywords": "Class Global Contains the global state of the system. Содержит глобальное состояние системы. Inheritance Object Global Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Singletons Assembly : Platform.Singletons.dll Syntax public static class Global Properties | Improve this Doc View Source Trash Represents a garbage field where you can dump unnecessary values. In some cases, this may help to avoid unwanted optimization and pretend that the value is really used. This may be useful when implementing performance tests. Представляет поле-помойку, куда можно сбрасывать ненужные значения. В некоторых случаях это может помочь избежать нежелательной оптимизации и сделать вид, что значение действительно используется. Такое может быть полезно при реализации тестов на производительность. Declaration public static object Trash { get; set; } Property Value Type Description Object"
   },
-  "api/Platform.Singletons.Default-1.html": {
-    "href": "api/Platform.Singletons.Default-1.html",
-    "title": "Class Default<T> | LinksPlatform's Platform.Singletons Library",
-    "keywords": "Class Default<T> Represents an access point to instances of default types (created using the constructor with no arguments). Представляет собой точку доступа к экземплярям типов по умолчанию (созданных с помощью конструктора без аргументов). Inheritance Object Default<T> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Singletons Assembly : Platform.Singletons.dll Syntax public static class Default<T> where T : new() Type Parameters Name Description T The type of instance of the object. Тип экземпляра объекта. Fields | Improve this Doc View Source Instance Returns an instance of an object by default. Возвращает экземпляр объекта по умолчанию. Declaration public static readonly T Instance Field Value Type Description T Properties | Improve this Doc View Source ThreadInstance If you really need maximum performance, use this property. This property should create only one instance per thread. Если вам действительно нужна максимальная производительность, используйте это свойство. Это свойство должно создавать только один экземпляр на поток. Declaration public static T ThreadInstance { get; } Property Value Type Description T Remarks Check for null is intended to create only classes, not structs. Проверка на значение null выполняется специально для создания только классов, а не структур."
+  "api/Platform.Singletons.html": {
+    "href": "api/Platform.Singletons.html",
+    "title": "Namespace Platform.Singletons | LinksPlatform's Platform.Singletons Library",
+    "keywords": "Namespace Platform.Singletons Classes Default<T> Represents an access point to instances of default types (created using the constructor with no arguments). Представляет собой точку доступа к экземплярям типов по умолчанию (созданных с помощью конструктора без аргументов). Global Contains the global state of the system. Содержит глобальное состояние системы. Singleton Structs Singleton<T>"
   },
   "api/Platform.Singletons.Singleton.html": {
     "href": "api/Platform.Singletons.Singleton.html",
