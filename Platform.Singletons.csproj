@@ -33,7 +33,7 @@ Code comments updated.</PackageReleaseNotes>
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Platform.Reflection" Version="0.1.1" />
+    <PackageReference Include="Platform.Reflection" Version="0.2.0" />
   </ItemGroup>
 
 </Project>
