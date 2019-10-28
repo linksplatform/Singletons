@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/home/travis/build/linksplatform/Singletons",
+  "source_base_path": "/home/runner/work/Singletons/Singletons",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "/vQaFRqFE1OBtG3CgdCbZQ=="
+          "hash": "kGp9q30Go+fyf0VXoNyv2w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Default-1.html",
-          "hash": "P2QhOpFf161/qKIj+CEoJQ=="
+          "hash": "Umxo+5KveROK2+RjAXDQGg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Global.html",
-          "hash": "koskasy8gXBy4GEp5Vc2XQ=="
+          "hash": "cwfB06ZAa9MWRBA8vCfygA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton-1.html",
-          "hash": "wgjvun+CrtLlYYaFFa5O8g=="
+          "hash": "VxFBNJhhHVsOpWHA8TgB9g=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton.html",
-          "hash": "6fs3yJ4h0SM/7Y7WCCniRg=="
+          "hash": "mes6w6IObM8TXNhzwz5XZA=="
         }
       },
       "is_incremental": false,
