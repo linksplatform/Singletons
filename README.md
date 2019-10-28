@@ -21,4 +21,5 @@ NuGet package: [Platform.Singletons](https://www.nuget.org/packages/Platform.Sin
 
 ## Dependent libraries
 *   [Platform.Scopes](https://github.com/linksplatform/Scopes)
+*   [Platform.Communication](https://github.com/linksplatform/Communication)
 *   [Platform.Data.Doublets](https://github.com/linksplatform/Data.Doublets)
