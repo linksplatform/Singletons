@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 #pragma warning disable RECS0017 // Possible compare of value type with 'null'
 
@@ -29,6 +30,10 @@ namespace Platform.Singletons
         /// <para>Check for null is intended to create only classes, not structs.</para>
         /// <para>Проверка на значение null выполняется специально для создания только классов, а не структур.</para>
         /// </remarks>
-        public static T ThreadInstance => _threadInstance == null ? _threadInstance = new T() : _threadInstance; //-V3111
+        public static T ThreadInstance
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get => _threadInstance == null ? _threadInstance = new T() : _threadInstance; //-V3111
+        }
     }
 }

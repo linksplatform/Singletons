@@ -1,4 +1,6 @@
-﻿namespace Platform.Singletons
+﻿using System.Runtime.CompilerServices;
+
+namespace Platform.Singletons
 {
     /// <summary>
     /// <para>Contains the global state of the system.</para>
@@ -18,6 +20,12 @@
         /// Такое может быть полезно при реализации тестов на производительность.
         /// </para>
         /// </summary>
-        public static object Trash { get; set; }
+        public static object Trash
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
     }
 }
