@@ -1,5 +1,5 @@
 [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Singletons)](https://www.nuget.org/packages/Platform.Singletons)
-[![Build Status](https://travis-ci.com/linksplatform/Singletons.svg?branch=master)](https://travis-ci.com/linksplatform/Singletons)
+[![Actions Status](https://github.com/linksplatform/Singletons/workflows/CD/badge.svg)](https://github.com/linksplatform/Singletons/actions?workflow=CD)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6a98025fb9fa4a049ea1276d727dca9d)](https://www.codacy.com/app/drakonard/Singletons?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linksplatform/Singletons&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/Singletons/badge)](https://www.codefactor.io/repository/github/linksplatform/Singletons)
 
