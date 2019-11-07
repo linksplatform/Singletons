@@ -42,7 +42,7 @@ Performance optimizations.</PackageReleaseNotes>
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Platform.Reflection" Version="0.3.0" />
+    <PackageReference Include="Platform.Reflection" Version="0.3.1" />
   </ItemGroup>
 
 </Project>
