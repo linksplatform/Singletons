@@ -15,9 +15,9 @@ namespace Platform.Singletons
         public static Singleton<T> Create<T>(IFactory<T> factory) => new Singleton<T>(factory.Create);
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static T Get<T>(Func<T> creator) => new Singleton<T>(creator).Instance;
+        public static T Get<T>(Func<T> creator) => Create(creator).Instance;
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static T Get<T>(IFactory<T> factory) => new Singleton<T>(factory.Create).Instance;
+        public static T Get<T>(IFactory<T> factory) => Create(factory).Instance;
     }
 }
