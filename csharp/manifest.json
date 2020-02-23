@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Default-1.html",
-          "hash": "jaaiPyivbIwNXnlbQAt3Nw=="
+          "hash": "aKqp5DDyoA8gA4769Sy+uw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Global.html",
-          "hash": "2qz0zeTJfEYLGwmMB7r9Qg=="
+          "hash": "YlVqxGMNUGe23bmKOlrWlA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton-1.html",
-          "hash": "/ZMyc6YyBJ5bKTvBseQr2A=="
+          "hash": "fmAqBVo66EL8k3BlomOgzw=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton.html",
-          "hash": "T2Vn9dG1b6MuwAnhqLRPGg=="
+          "hash": "4F8ZKtzDsLbzFQVO0o+ESA=="
         }
       },
       "is_incremental": false,
@@ -123,16 +123,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
