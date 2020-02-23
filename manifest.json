@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Default-1.html",
-          "hash": "KTr3XvT4HFXh35d0pPiyXQ=="
+          "hash": "IfmMVSL7UbzXuhNaRP2svQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Global.html",
-          "hash": "ZdfZ0SU0O7XqXYKbZIpAMw=="
+          "hash": "/xjtxRWSMCQHLhrq2BbsIw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton-1.html",
-          "hash": "DImx7P6jp+Tjkz5spEqMZw=="
+          "hash": "R2aVHrHbb/qIPUoKBS3VjA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Singletons.Singleton.html",
-          "hash": "ayBeqWqqwL2jTwJWLVvlLw=="
+          "hash": "cCqRczN3q8xLTT2b3DxAGA=="
         }
       },
       "is_incremental": false,
