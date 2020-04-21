@@ -18,79 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "FmoJYQZVt5dv5PKDnmBIAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Default-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Default-1.html",
-          "hash": "eaSJcYwCMzph5YvuV5aJ8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Global.html",
-          "hash": "JIguGSZ+WHzjL4xdxfRKfg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Singleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Singleton-1.html",
-          "hash": "w2hA7bWYHMliD4e16T01kw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.Singleton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.Singleton.html",
-          "hash": "fjdNz5v9/yrp+7Sbmc0bAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Singletons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Singletons.html",
-          "hash": "UVdNzCGTfKn1m9stzbOmNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "1FGcdUwRKgXfokE4eri5xw=="
+          "hash": "oNis98ZCitPZcgcvFAI8Sg=="
         }
       },
       "is_incremental": false,
@@ -105,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "KzMd5xw218yGtHdhdMinRw=="
+          "hash": "JiAUA7wQTZ5pq7P72B38dw=="
         }
       },
       "is_incremental": false,
@@ -127,12 +55,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
