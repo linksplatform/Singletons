@@ -7,14 +7,14 @@
 
 LinksPlatform's Platform.Singletons Class Library.
 
-Namespace: [Platform.Singletons](https://linksplatform.github.io/Singletons/api/Platform.Singletons.html)
+Namespace: [Platform.Singletons](https://linksplatform.github.io/Singletons/csharp/api/Platform.Singletons.html)
 
 Forked from: [LinksPlatform/Helpers/Singletons](https://github.com/linksplatform/Helpers/tree/e27f7586f8015cad596b6aa3c2df2ac2a3dadb60/Singletons)
 
 NuGet package: [Platform.Singletons](https://www.nuget.org/packages/Platform.Singletons)
 
 ## [Documentation](https://linksplatform.github.io/Singletons)
-[PDF file](https://linksplatform.github.io/Singletons/Platform.Singletons.pdf) with code for e-readers.
+[PDF file](https://linksplatform.github.io/Singletons/csharp/Platform.Singletons.pdf) with code for e-readers.
 
 ## Depend on
 *   [Platform.Reflection](https://github.com/linksplatform/Reflection)
