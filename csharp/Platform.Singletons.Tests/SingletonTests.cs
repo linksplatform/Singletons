@@ -1,9 +1,21 @@
-﻿using Xunit;
+using Xunit;
 
 namespace Platform.Singletons.Tests
 {
+    /// <summary>
+    /// <para>
+    /// Represents the singleton tests.
+    /// </para>
+    /// <para></para>
+    /// </summary>
     public class SingletonTests
     {
+        /// <summary>
+        /// <para>
+        /// Tests that two values are the same test.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [Fact]
         public void TwoValuesAreTheSameTest()
         {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Runtime.CompilerServices;
 
 #pragma warning disable RECS0017 // Possible compare of value type with 'null'
@@ -13,6 +13,12 @@ namespace Platform.Singletons
     public static class Default<T>
         where T : new()
     {
+        /// <summary>
+        /// <para>
+        /// The thread instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [ThreadStatic]
         private static T _threadInstance;
 
