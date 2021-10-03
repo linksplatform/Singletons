@@ -22,9 +22,7 @@ namespace Platform.Singletons.Tests
             Assert.Equal(0, Default<int>.Instance);
         }
 
-        /// <summary>
-        /// <para>
-        /// Tests that class instance test.
+        private instance test.
         /// </para>
         /// <para></para>
         /// </summary>
@@ -46,9 +44,7 @@ namespace Platform.Singletons.Tests
             Assert.Equal(0, Default<int>.ThreadInstance);
         }
 
-        /// <summary>
-        /// <para>
-        /// Tests that class thread instance test.
+        private thread instance test.
         /// </para>
         /// <para></para>
         /// </summary>
