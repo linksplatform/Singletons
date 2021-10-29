@@ -28,7 +28,12 @@ namespace Platform.Singletons
         /// </summary>
         public static readonly T Instance = new T();
 
-        privatees, not structs.</para>
+        /// <summary>
+        /// <para>If you really need maximum performance, use this property. This property should create only one instance per thread.</para>
+        /// <para>Если вам действительно нужна максимальная производительность, используйте это свойство. Это свойство должно создавать только один экземпляр на поток.</para>
+        /// </summary>
+        /// <remarks>
+        /// <para>Check for null is intended to create only classes, not structs.</para>
         /// <para>Проверка на значение null выполняется специально для создания только классов, а не структур.</para>
         /// </remarks>
         public static T ThreadInstance

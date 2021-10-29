@@ -18,7 +18,19 @@ namespace Platform.Singletons
     /// </summary>
     public struct Singleton<T>
     {
+        /// <summary>
+        /// <para>
+        /// The .
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly ConcurrentDictionary<Func<T>, byte[]> _functions = new ConcurrentDictionary<Func<T>, byte[]>();
+        /// <summary>
+        /// <para>
+        /// The instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly ConcurrentDictionary<byte[], T> _singletons = new ConcurrentDictionary<byte[], T>(Default<IListEqualityComparer<byte>>.Instance);
 
         /// <summary>
