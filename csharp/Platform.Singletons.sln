@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Singletons", "csharp\Platform.Singletons\Platform.Singletons.csproj", "{9A9E3B4E-6A1D-4598-8177-7B1761689E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Singletons", "Platform.Singletons\Platform.Singletons.csproj", "{9A9E3B4E-6A1D-4598-8177-7B1761689E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Singletons.Tests", "csharp\Platform.Singletons.Tests\Platform.Singletons.Tests.csproj", "{C69FB2C8-8A56-40AF-9395-3C038061EC2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Singletons.Tests", "Platform.Singletons.Tests\Platform.Singletons.Tests.csproj", "{C69FB2C8-8A56-40AF-9395-3C038061EC2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
