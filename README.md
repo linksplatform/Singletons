@@ -1,4 +1,4 @@
-[![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Singletons)](https://www.nuget.org/packages/Platform.Singletons)
+[![NuGet Version and Downloads count](https://img.shields.io/nuget/v/Platform.Singletons?label=nuget&style=flat)](https://www.nuget.org/packages/Platform.Singletons)
 [![Actions Status](https://github.com/linksplatform/Singletons/workflows/CD/badge.svg)](https://github.com/linksplatform/Singletons/actions?workflow=CD)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d737528582244c4ab7a71ac946ac17af)](https://www.codacy.com/gh/linksplatform/Singletons/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linksplatform/Singletons&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/Singletons/badge)](https://www.codefactor.io/repository/github/linksplatform/Singletons)
