@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPlatform.Singletons.a CMakeFiles/Platform.Singletons.dir/Platform.Singletons/Global.cpp.o
+/usr/bin/ranlib libPlatform.Singletons.a
