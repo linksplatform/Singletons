@@ -1,13 +1,65 @@
-﻿namespace Platform::Singletons
+﻿#pragma once
+#include <functional>
+
+namespace Platform::Singletons
 {
-    class Singleton
+    template<typename T> struct Singleton;
+    
+    /// <summary>
+    /// <para>
+    /// Represents the singleton.
+    /// </para>
+    /// <para></para>
+    /// </summary>
+    class SingletonFactory
     {
-        public: static Singleton<T> Create<T>(std::function<T()> creator) { return Singleton<T>(creator); }
+    public:
+        /// <summary>
+        /// <para>
+        /// Creates the creator.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="T">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="creator">
+        /// <para>The creator.</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>A singleton of t</para>
+        /// <para></para>
+        /// </returns>
+        template<typename T>
+        static Singleton<T> Create(std::function<T()> creator)
+        {
+            return Singleton<T>(creator);
+        }
 
-        public: static Singleton<T> Create<T>(IFactory<T> &factory) { return Singleton<T>(factory.Create); }
-
-        public: template <typename T> static T Get(std::function<T()> creator) { return Create(creator)->Instance; }
-
-        public: template <typename T> static T Get(IFactory<T> &factory) { return Create(factory)->Instance; }
+        /// <summary>
+        /// <para>
+        /// Gets the creator.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="T">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="creator">
+        /// <para>The creator.</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The</para>
+        /// <para></para>
+        /// </returns>
+        template<typename T>
+        static T Get(std::function<T()> creator)
+        {
+            return Create(creator).Instance;
+        }
     };
 }

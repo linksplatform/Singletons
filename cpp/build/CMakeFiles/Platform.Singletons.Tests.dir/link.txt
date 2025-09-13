@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Platform.Singletons.Tests.dir/Platform.Singletons.Tests/main.cpp.o -o Platform.Singletons.Tests  libPlatform.Singletons.a 

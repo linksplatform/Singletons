@@ -1,25 +1,44 @@
-﻿namespace Platform::Singletons::Tests
+﻿#pragma once
+#include <cassert>
+#include <cstdint>
+#include <string>
+#include "../Platform.Singletons/Default[T].h"
+
+namespace Platform::Singletons::Tests
 {
-    TEST_CLASS(DefaultTests)
+    class DefaultTests
     {
-        public: TEST_METHOD(StructInstanceTest)
+    public:
+        static void StructInstanceTest()
         {
-            Assert::AreEqual(0, Default<std::int32_t>.Instance);
+            // Test that default int instance is 0
+            assert(Default<std::int32_t>::Instance == 0);
         }
 
-        public: TEST_METHOD(ClassInstanceTest)
+        static void ClassInstanceTest()
         {
-            Assert.NotNull(Default<void*>.Instance);
+            // Test that default string instance is not null (default constructed string is valid)
+            assert(Default<std::string>::Instance.empty()); // Empty string is the default
         }
 
-        public: TEST_METHOD(StructThreadInstanceTest)
+        static void StructThreadInstanceTest()
         {
-            Assert::AreEqual(0, Default<std::int32_t>.ThreadInstance);
+            // Test that default int thread instance is 0
+            assert(Default<std::int32_t>::GetThreadInstance() == 0);
         }
 
-        public: TEST_METHOD(ClassThreadInstanceTest)
+        static void ClassThreadInstanceTest()
         {
-            Assert.NotNull(Default<void*>.ThreadInstance);
+            // Test that default string thread instance is not null
+            assert(Default<std::string>::GetThreadInstance().empty());
+        }
+        
+        static void RunAllTests()
+        {
+            StructInstanceTest();
+            ClassInstanceTest();
+            StructThreadInstanceTest();
+            ClassThreadInstanceTest();
         }
     };
 }
