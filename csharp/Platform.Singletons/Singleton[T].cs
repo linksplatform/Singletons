@@ -14,7 +14,7 @@ namespace Platform.Singletons
     /// <para>
     /// The singleton.
     /// </para>
-    /// <para></para>
+    /// <para>Одиночка.</para>
     /// </summary>
     public struct Singleton<T>
     {
@@ -25,7 +25,7 @@ namespace Platform.Singletons
         /// <para>
         /// Gets the instance value.
         /// </para>
-        /// <para></para>
+        /// <para>Получает значение экземпляра.</para>
         /// </summary>
         public T Instance
         {
@@ -37,11 +37,11 @@ namespace Platform.Singletons
         /// <para>
         /// Initializes a new <see cref="Singleton"/> instance.
         /// </para>
-        /// <para></para>
+        /// <para>Инициализирует новый экземпляр <see cref="Singleton"/>.</para>
         /// </summary>
         /// <param name="creator">
         /// <para>A creator.</para>
-        /// <para></para>
+        /// <para>Создатель.</para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Singleton(Func<T> creator) => Instance = _singletons.GetOrAdd(_functions.GetOrAdd(creator, creator.GetMethodInfo().GetILBytes()), key => creator());

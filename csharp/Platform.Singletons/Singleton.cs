@@ -10,7 +10,7 @@ namespace Platform.Singletons
     /// <para>
     /// Represents the singleton.
     /// </para>
-    /// <para></para>
+    /// <para>Представляет одиночку.</para>
     /// </summary>
     public static class Singleton
     {
@@ -18,19 +18,19 @@ namespace Platform.Singletons
         /// <para>
         /// Creates the creator.
         /// </para>
-        /// <para></para>
+        /// <para>Создает создателя.</para>
         /// </summary>
         /// <typeparam name="T">
-        /// <para>The .</para>
-        /// <para></para>
+        /// <para>The type of the singleton.</para>
+        /// <para>Тип одиночки.</para>
         /// </typeparam>
         /// <param name="creator">
         /// <para>The creator.</para>
-        /// <para></para>
+        /// <para>Создатель.</para>
         /// </param>
         /// <returns>
-        /// <para>A singleton of t</para>
-        /// <para></para>
+        /// <para>A singleton of T</para>
+        /// <para>Одиночка типа T</para>
         /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static Singleton<T> Create<T>(Func<T> creator) => new Singleton<T>(creator);
@@ -39,19 +39,19 @@ namespace Platform.Singletons
         /// <para>
         /// Creates the factory.
         /// </para>
-        /// <para></para>
+        /// <para>Создает фабрику.</para>
         /// </summary>
         /// <typeparam name="T">
-        /// <para>The .</para>
-        /// <para></para>
+        /// <para>The type of the singleton.</para>
+        /// <para>Тип одиночки.</para>
         /// </typeparam>
         /// <param name="factory">
         /// <para>The factory.</para>
-        /// <para></para>
+        /// <para>Фабрика.</para>
         /// </param>
         /// <returns>
-        /// <para>A singleton of t</para>
-        /// <para></para>
+        /// <para>A singleton of T</para>
+        /// <para>Одиночка типа T</para>
         /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static Singleton<T> Create<T>(IFactory<T> factory) => new Singleton<T>(factory.Create);
@@ -60,19 +60,19 @@ namespace Platform.Singletons
         /// <para>
         /// Gets the creator.
         /// </para>
-        /// <para></para>
+        /// <para>Получает создателя.</para>
         /// </summary>
         /// <typeparam name="T">
-        /// <para>The .</para>
-        /// <para></para>
+        /// <para>The type of the singleton.</para>
+        /// <para>Тип одиночки.</para>
         /// </typeparam>
         /// <param name="creator">
         /// <para>The creator.</para>
-        /// <para></para>
+        /// <para>Создатель.</para>
         /// </param>
         /// <returns>
-        /// <para>The</para>
-        /// <para></para>
+        /// <para>The instance of T</para>
+        /// <para>Экземпляр типа T</para>
         /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T Get<T>(Func<T> creator) => Create(creator).Instance;
@@ -81,19 +81,19 @@ namespace Platform.Singletons
         /// <para>
         /// Gets the factory.
         /// </para>
-        /// <para></para>
+        /// <para>Получает фабрику.</para>
         /// </summary>
         /// <typeparam name="T">
-        /// <para>The .</para>
-        /// <para></para>
+        /// <para>The type of the singleton.</para>
+        /// <para>Тип одиночки.</para>
         /// </typeparam>
         /// <param name="factory">
         /// <para>The factory.</para>
-        /// <para></para>
+        /// <para>Фабрика.</para>
         /// </param>
         /// <returns>
-        /// <para>The</para>
-        /// <para></para>
+        /// <para>The instance of T</para>
+        /// <para>Экземпляр типа T</para>
         /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T Get<T>(IFactory<T> factory) => Create(factory).Instance;
