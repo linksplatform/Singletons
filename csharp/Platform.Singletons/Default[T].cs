@@ -17,7 +17,7 @@ namespace Platform.Singletons
         /// <para>
         /// The thread instance.
         /// </para>
-        /// <para></para>
+        /// <para>Экземпляр потока.</para>
         /// </summary>
         [ThreadStatic]
         private static T _threadInstance;
